@@ -39,3 +39,5 @@ Here is its code:
  }
 
 ```
+
+Project published at: https://shlapakmaksym.github.io/quarter-checker/
