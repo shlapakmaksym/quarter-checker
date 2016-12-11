@@ -7,8 +7,7 @@
 
 Here is its code:
 
-``` 
-javascript
+``` javascript
 
  if(isNaN(x) || isNaN(y)) {
     print('Some cordinate was passed with incorrect value ')
