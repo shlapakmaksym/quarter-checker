@@ -15,14 +15,12 @@ function read(id) {
 function send() {
     var x = read('x');
     var y = read('y');
-    //print('x: ' + x);
-    //print('y: ' + y);
 
-    if(isNaN(x) || isNaN(y)) {
+    if (isNaN(x) || isNaN(y)) {
         print('Some cordinate was passed with incorrect value ')
     }
 
-    if(x == '' || y == '') {
+    if (x == '' || y == '') {
         print('Some cordinate value is empty')
     }
     else if (x > 0 && y > 0) {
@@ -44,5 +42,6 @@ function send() {
         print('Point is in 4th or 3th QUARTER')
     }
     else if (x == 0 && y == 0) {
-        print('Point is in the beginning of ') }
+        print('Point is in the beginning of ')
+    }
 }
